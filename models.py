@@ -24,4 +24,4 @@ class SentimentResponse(BaseModel):
     overall_sentiment:Optional[str] = None
 
 class StockSymbolRequest(BaseModel):
-    symbol:str=Field(...,max_length=10)
+    symbol:str=Field(...,max_length=50)
