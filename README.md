@@ -95,9 +95,15 @@ docker run -d -p 8000:80 --name diversifi-container \
 
 ### 7. Access the API
 
+#### Local Development
 - **API Base URL**: `http://localhost:8000`
 - **Interactive Documentation**: `http://localhost:8000/docs`
 - **Alternative Docs**: `http://localhost:8000/redoc`
+
+#### Live Deployment
+- **Production API**: `https://diversifi-1.onrender.com`
+- **Live Documentation**: `https://diversifi-1.onrender.com/docs`
+- **Alternative Docs**: `https://diversifi-1.onrender.com/redoc`
 
 ## 📰 News Data Source
 
